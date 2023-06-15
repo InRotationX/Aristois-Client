@@ -1,6 +1,3 @@
-if not game:IsLoaded() then
-	game.Loaded:wait() 
-end
 
 -- goofy ahh aristois client
 local library = {}
