@@ -36,7 +36,7 @@ function library:CreateWindow(name, version, icon)
 
 	Window.Name = "Window"
 	Window.Parent = MyGui
-	Window.BackgroundColor3 = Color3.fromRGB(49, 49, 59)
+	Window.BackgroundColor3 = Color3.fromRGB(0,0,0)
 	Window.Position = UDim2.new(0.5, -300, 0.600000024, -200)
 	Window.Size = UDim2.new(0, 0, 0, 0)
 	Window.ClipsDescendants = true
@@ -57,11 +57,11 @@ function library:CreateWindow(name, version, icon)
 	Icon.Position = UDim2.new(0, 6, 0, 6)
 	Icon.Size = UDim2.new(0, 18, 0, 18)
 	Icon.Image = "rbxassetid://"..icon
-	Icon.ImageColor3 = Color3.fromRGB(135, 255, 135)
+	Icon.ImageColor3 = Color3.fromRGB(100, 0, 255)
 
 	MainTitle.Name = "Title"
 	MainTitle.Parent = TitleBar
-	MainTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	MainTitle.BackgroundColor3 = Color3.fromRGB(100,0,255)
 	MainTitle.BackgroundTransparency = 1.000
 	MainTitle.Position = UDim2.new(0, 30, 0, 1)
 	MainTitle.Size = UDim2.new(1, -30, 1, 0)
@@ -73,7 +73,7 @@ function library:CreateWindow(name, version, icon)
 
 	TitleUnderline.Name = "TitleUnderline"
 	TitleUnderline.Parent = TitleBar
-	TitleUnderline.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+	TitleUnderline.BackgroundColor3 = Color3.fromRGB(100, 0, 255)
 	TitleUnderline.BorderSizePixel = 0
 	TitleUnderline.Position = UDim2.new(0, 0, 1, 0)
 	TitleUnderline.Size = UDim2.new(1, 0, 0, 1)
