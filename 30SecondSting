@@ -21,8 +21,7 @@ Toggle:UpdateToggle("test", "idk bvro")
 print(arg)
 end)
 
-Bind = Page:CreateBind("KeyBind", "F", function(arg)
-Bind:UpdateBind("test")
+Bind = Page:CreateBind("KeyBind", Enum.KeyCode.Unknown, false, true, function(arg)
 print(arg)
 end)
 
